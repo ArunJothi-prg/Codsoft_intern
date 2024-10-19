@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+    /* padding-top: 80px; */
+}
+
+
+
+/* .navbar{
+    position: fixed;
+    top:0;
+} */
+
+.navbar nav{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    /* position: fixed; */
+}
+
+.logo{
+    width: 100px;
+    cursor: default;
+}
+
+.navbar nav ul li {
+    display: inline-block;
+    list-style: georgian;
+    margin: 10px 20px;
+}
+
+.navbar nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.navbar nav ul li a:hover{
+    color: red;
+}
+
+.detail{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.detail h1{
+    font-size: 70px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+.abt h1{
+    font-size: 70px;
+    color: #212121;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+span{
+    color: rgb(68, 0, 255);
+    font-size: 90px;
+    
+}
+
+.detail p{
+    color: #555;
+    line-height: 22px;
+    padding: 0 150px;
+}
+
+
+
+.detail a{
+    background: #212121;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 200px;
+    border-radius: 5px;
+    
+}
+
+.detail a:hover{
+    background: #555;
+}
+
+.images{
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+}
+
+
+
+.images img,svg{
+    height: 100%;
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images svg{
+    bottom: 40px;
+}
+
+.images:hover .shape{
+    bottom: 75px;
+}
+
+.images:hover .bio{
+    left: 50%;
+}
+
+.social{
+    margin-left: 20%;
+    margin-top: 25px;
+}
+
+.social a{
+    font-size: 30px;
+    color: #212121;
+    margin-right: 20px;
+}
+
+.social a:hover{
+    color: orange;
+}
+
+.about{
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+}
+
+.about h1{
+    margin-top: 50px;
+    font-size: 80px;
+    padding-top: 80px;
+}
+
+.about p{
+    color: #4d4b4b;
+    line-height: 45px;
+    padding: 100px 150px;
+}
+
+
+.skills{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+}
+
+.skills h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 80px;
+}
+
+.skills-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-top: 100px;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #212121;
+}
+
+.skill-item i {
+    font-size: 50px;
+    color: #4a72e2;
+    margin-bottom: 10px;
+}
+
+.skill-item:hover{
+    transform: scale(1.5);
+}
+
+.skill-item p {
+    font-size: 20px;
+    color: #333;
+    padding-top: 5px;
+}
+
+
+.projects {
+    text-align: center;
+    /* margin: 75px 0; */
+    height: 75vh;
+}
+
+.projects h1 {
+    font-size: 50px;
+    color: #212121;
+    /* margin-top: 70px; */
+    padding-top: 50px;
+    /* margin-bottom: 30px; */
+}
+
+.projects-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-top: 80px;
+}
+
+.project-box {
+    flex-basis: calc(100%/4);
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 15px;
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, background-color 0.3s;
+    position: relative;
+}
+
+.project-box:hover {
+    background-color: #ffffff;
+    transform: scale(1.05);
+}
+
+.project-box h2 {
+    font-size: 20px;
+    color: #212121;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.project-box p {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 25px;
+    color: #555;
+}
+
+.project-box .domain {
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+    align-self: flex-end;
+}
+
+.portfolio-link {
+    font-size: 15px;
+    background-color: #ffffff;
+    color: rgba(44, 44, 44, 0.774);
+    padding: 30px;
+    width: 300px;
+    height: 150px; 
+    line-height: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.portfolio-link a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(53, 15, 220, 0.745);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.portfolio-link:hover {
+    background-color: #ffffff;
+    transform: scale(1.05);
+}
+
+.portfolio-link a:hover{
+    color: rgba(231, 27, 27, 0.745);
+}
+
+
+.contact {
+    text-align: center;
+    padding: 30px;
+    background-color: #f1f1f1;
+    line-height: 30px;
+}
+
+.contact h1 {
+    font-size: 50px;
+    color: #212121;
+    padding: 20px;
+}
+
+.contact p {
+    font-size: 20px;
+    color: #333;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #212121;
+    color: #fff;
+}
