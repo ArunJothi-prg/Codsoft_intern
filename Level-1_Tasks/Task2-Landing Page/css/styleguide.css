@@ -1,0 +1,163 @@
+:root { 
+  --alto: #d9d9d9;
+  --black: #000000;
+  --gray: #808080;
+  --mercury: #e5e7eb;
+  --pacific-blue: #009dc9;
+  --white: #ffffff;
+  --white-2: #ffffffcf;
+  --white-3: #ffffff01;
+ 
+  --font-size-l: 24px;
+  --font-size-m: 20px;
+  --font-size-s: 18px;
+  --font-size-xl: 36px;
+  --font-size-xs: 14px;
+  --font-size-xxl: 40px;
+  --font-size-xxxl: 64px;
+ 
+  --font-family-abeezee: "ABeeZee", Helvetica;
+  --font-family-formula1-bold: "Formula1-Bold", Helvetica;
+  --font-family-formula1-display-bold: "Formula1-Display-Bold", Helvetica;
+  --font-family-formula1-display-italic: "Formula1-Display-Italic", Helvetica;
+  --font-family-formula1-display-regular: "Formula1-Display-Regular", Helvetica;
+  --font-family-formula1-regular: "Formula1-Regular", Helvetica;
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-open_sans: "Open Sans", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
+  --font-family-ruda: "Ruda", Helvetica;
+  --font-family-varela_round: "Varela Round", Helvetica;
+}
+.inter-normal-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.formula1-regular-normal-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-formula1-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.formula1-display-regular-normal-black-36px {
+  color: var(--black);
+  font-family: var(--font-family-formula1-display-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.varelaround-normal-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-varela_round);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.formula1-display-bold-black-64px {
+  color: var(--black);
+  font-family: var(--font-family-formula1-display-bold);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.ruda-normal-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-ruda);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.abeezee-normal-black-32px {
+  color: var(--black);
+  font-family: var(--font-family-abeezee);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.formula1-bold-white-64px {
+  font-family: var(--font-family-formula1-bold);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.formula1-bold-black-64px {
+  color: var(--black);
+  font-family: var(--font-family-formula1-bold);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.formula1-display-regular-normal-black-48px {
+  color: var(--black);
+  font-family: var(--font-family-formula1-display-regular);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.ruda-black-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-ruda);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 900;
+}
+
+.poppins-semi-bold-white-88px {
+  font-family: var(--font-family-poppins);
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.inter-medium-pacific-blue-20px {
+  color: var(--pacific-blue);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.ruda-normal-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-ruda);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.formula1-regular-normal-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-formula1-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.formula1-bold-black-55px {
+  color: var(--black);
+  font-family: var(--font-family-formula1-bold);
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+}

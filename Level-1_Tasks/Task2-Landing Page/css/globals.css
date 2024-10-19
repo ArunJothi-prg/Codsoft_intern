@@ -1,0 +1,74 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:700,400|Inter:700,700italic,800,500,400|Poppins:600|ABeeZee:400|Open+Sans:600|Ruda:500,400,900|Varela+Round:400");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/66c0603deca4d2e95aa8108e.66c17a4d467ea622962e9f9d.wHeqxJn.hcp.png");
+
+@font-face {
+  font-family: "Formula1-Display-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Formula1-Display-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Formula1-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Formula1-Regular-1.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Formula1-Display-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Formula1-Display-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Formula1-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Formula1-Bold.otf") format("opentype");
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.listeners-active,
+.listeners-active * {
+  pointer-events: auto;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.listeners-active-click,
+.listeners-active-click * {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
