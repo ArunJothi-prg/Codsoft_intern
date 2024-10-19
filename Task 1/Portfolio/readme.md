@@ -1,1 +1,1 @@
-A dynamic portfolio webpage using [HTML],[CSS].
+A dynamic portfolio webpage using HTML and CSS.
