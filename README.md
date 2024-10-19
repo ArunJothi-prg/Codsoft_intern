@@ -2,7 +2,7 @@
 Web Development Internship Tasks Repository
 
 ## Description
-This project was developed during my internship at [CodSoft]. It demonstrates [unique functionality] and was specifically designed for [the purpose].
+This project was developed during my internship at CodSoft. It demonstrates unique functionality and was specifically designed for the purpose.
 
 **Important** : This repository and all associated code are for viewing purposes only.
 
